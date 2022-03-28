@@ -4,8 +4,11 @@
   "description": "A JavaScript implementation of tic tac toe using a Clojuristic approach",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Michael Wiederhold",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "^4.0.0"
+  }
 }
